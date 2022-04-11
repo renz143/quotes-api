@@ -10,8 +10,7 @@ class Quotes extends Model {
     protected $guarded = [];
 
     protected $fillable = [
-        'title',
+        'content',
         'author',
-        'image',
     ];
 }
